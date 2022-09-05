@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.orange-bg {
+    background-color:#ffc017; 
+    border-bottom: 1px solid #414141;
+}
+
+.nav-colored { 
+    background-color:#ffc017;
+    border-bottom: 1px solid #414141;
+    transition: 0.5s ease-in;
+}
+.nav-white { 
+    background-color:#fff;
+    border-bottom: 1px solid #414141;
+    transition: 0.5s ease-in;
+}
+
+.gri-zemin {
+    background-color: rgb(250, 250, 250); 
+    color: rgb(51, 51, 51);
+    padding: 5px 15px 5px 15px;
+}
+
+.gri-zemin:hover {
+    background-color: #ffc017;
+    color: rgb(51, 51, 51);
+    padding: 5px 15px 5px 15px;
+}
+
+.orange-text {
+    color:#ffc017; 
+}
+
+.alt-cizgi {
+    border-bottom: 1px solid #dadada;
+}
+
+.big-font {
+    font-family: 'Playfair Display', serif;
+    font-size: 5em;
+    font-weight: 500;
+}
+
+.dikey-ortala {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.uste-hizala {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+p, h6, h4 {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.rounded-btn {
+    border-radius: 2em;
+}
+
+.ara-baslik {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.ikon-daire {
+    width: 1.2em;
+    height: 1.2em;
+    border: 1px solid black;
+}
+
+.text-muted {
+    color: rgb(189, 189, 189) !important; 
+}
+
+.gri-yazi {
+    color: rgb(112, 112, 112); 
+}
